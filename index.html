@@ -1,0 +1,23 @@
+<html>
+<title>Face Mask Detection</title>
+<head>
+	<h1>Face Mask Detection using Transfer Learning</h1>
+	<p>Click 'Start Predicting' to see predictions, and 'Stop Predicting' to end</p>
+	<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+	<script src="webcam.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div>
+		<div>
+			<video autoplay playsinline muted id="wc" width="250" height="250"></video>
+		</div>
+	</div>
+	<p></p>
+	<button type="button" id="startPredicting" onclick="startPredicting()" >Start Predicting</button>
+	<button type="button" id="stopPredicting" onclick="stopPredicting()" >Stop Predicting</button>
+	<div id="prediction"></div>
+</body>
+
+<script src="script.js"></script>
+</html>
