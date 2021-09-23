@@ -8,7 +8,8 @@ adasda
 
 ## Model Evaluation
 
-<details>
-<summary>Accuracy and Loss</summary>
-<br>
-</details>
+### Loss
+![](images/plot.png)
+
+### Accuracy
+![](images/plot_acc.png)
