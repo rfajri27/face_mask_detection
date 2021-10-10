@@ -4,7 +4,7 @@ Project ini menggunakan transfer-learning sebagai model untuk medeteksi apakah u
 
 ## Model Description
 
-adasda
+adasda dsdas
 
 ## Model Evaluation
 
