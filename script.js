@@ -1,6 +1,9 @@
 let model;
 const webcam = new Webcam(document.getElementById('wc'));
-const MODEL_URL = 'http://127.0.0.1:8887/tfjs_model/model.json';
+const MODEL_URL = 'http://127.0.0.1:5500/tfjs_model/model.json';
+/**
+ * http://127.0.0.1:5500/tfjs_model/model.json -> for VScode LiveServer
+ */
 
 let isPredicting = false;
 
